@@ -21,7 +21,6 @@ set cmdheight=2                " 画面下部に表示されるコマンドラ�
 set showcmd                    " 入力したコマンドをステータスライン上に表示  例えばdを入力したらdと表示される
 set visualbell                 " ビープの代わりにビジュアルベル（画面フラッシュ）を使う
 set vb t_vb=                   " ビープを鳴らさない
-set mouse=a                    " 全モードでマウスを有効化
 set showmatch                  " カッコの対応をハイライト
 set laststatus=2               " ステータスラインを常に表示する
 set smartindent                " 新しい行を開始した時に、新しい行のインデントを現在行と同じ量にする
