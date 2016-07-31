@@ -1,6 +1,11 @@
 syntax enable                  " ハイライトを有効化
 syntax on                      " ハイライトを有効化
-colorscheme jellybeans
+"colorscheme jellybeans
+colorscheme railscasts
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set t_Co=256
 set ffs=unix,dos,mac           " 改行文字
 set encoding=utf-8             " デフォルトエンコーディング
 set fileencodings=utf-8
@@ -24,7 +29,6 @@ set vb t_vb=                   " ビープを鳴らさない
 set showmatch                  " カッコの対応をハイライト
 set laststatus=2               " ステータスラインを常に表示する
 set smartindent                " 新しい行を開始した時に、新しい行のインデントを現在行と同じ量にする
-set cindent                    " Cプログラムの自動インデント
 set expandtab                  " タブキーを空白に変換
 set backspace=indent,eol,start " バックスペースでインデント、改行を削除できるようにする
 set wildmenu                   " コマンドラインモードでTABキーによる補完を有効化
