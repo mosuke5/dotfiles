@@ -37,3 +37,5 @@ set history=1000               " コマンド・検索パターンの履歴数
 set wildmode=list:longest,full
 set nostartofline              " 移動コマンドを使ったとき、行頭に移動しない
 set notimeout ttimeout ttimeoutlen=200 " キーコードはすぐにタイムアウト  マッピングはタイムアウトしない
+noremap <C-j> <esc>
+noremap! <C-j> <esc>
