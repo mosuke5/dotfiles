@@ -1,7 +1,6 @@
 syntax enable                  " ハイライトを有効化
 syntax on                      " ハイライトを有効化
-"colorscheme jellybeans
-colorscheme railscasts
+colorscheme ron
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
